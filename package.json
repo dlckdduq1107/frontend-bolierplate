@@ -5,6 +5,11 @@
   "repository": "https://github.com/dlckdduq1107/frontend-bolierplate.git",
   "author": "dlckdduq1107 <dlckdduq97@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --open --hot --progress",
+    "build": "webpack --mode=production  --progress",
+    "start": "webpack --mode=development  --progress"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
